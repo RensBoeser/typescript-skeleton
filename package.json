@@ -1,0 +1,23 @@
+{
+  "name": "bre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/index.ts"
+  },
+  "author": "Rens",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^6.0.0"
+  }
+}
