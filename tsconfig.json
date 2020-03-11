@@ -18,13 +18,13 @@
 		"sourceMap": true,
 		"target": "es2020",
 		"paths": {
-			"lib/*": ["src/lib/*"],
+			"src/*": ["src/*"],
+			"lib/*": ["lib/*"]
 		},
 	},
 	"include": [
 		"src/**/*.ts",
-		"test/**/*.ts",
-		"test/*.ts"
+		"lib/**/*.ts"
 	],
 	"exclude": [
 		"node_modules"
